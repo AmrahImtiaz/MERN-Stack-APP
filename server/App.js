@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use('/api', productRoute); // Prefix all routes with /api
 
-mongoose.connect('mongodb+srv://aaweeza123:aaweeza2003@cluster0.x1gbeml.mongodb.net/Shopping',{
+mongoose.connect('mongodb+srv://sp22bscs0082:majustudent@cluster0.x1gbeml.mongodb.net/Shopping',{
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })

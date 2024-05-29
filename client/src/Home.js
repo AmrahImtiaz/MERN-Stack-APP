@@ -5,8 +5,8 @@ function Home() {
   return (
     <div className="home">
         <div className="overlay">
-        <h1>Welcome to Crafty Quill</h1>
-        <p>Explore our wide range of premium stationary!</p>
+        <h1>Welcome to Evergreen Emporium</h1>
+        <p>Bringing Nature Home</p>
       </div>
     </div>
   );
