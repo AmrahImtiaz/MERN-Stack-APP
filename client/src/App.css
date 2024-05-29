@@ -1,0 +1,127 @@
+body {
+  background-color: #7070c4;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #ffffff; /* Default font color for body */
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #7b50ca, #977bfe, #ff7e5f);
+  border-bottom: 2px solid #3f2b88;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar .navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: none;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.navbar .nav-link {
+  color: #ffeb3b; /* Change link color */
+  border: 2px solid transparent;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.navbar .nav-link:hover {
+  color: #fff;
+  background-color: #FF5733;
+  border: 2px solid #fff;
+}
+
+.content {
+  padding-top: 60px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #b9f15f; /* Default font color for container */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6, .col-md-5, .col-md-1 {
+  padding: 10px;
+}
+
+.product-form, .product-list {
+  background-color: #e9ecef;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(62, 140, 192, 0.664);
+  padding: 20px;
+}
+
+.product-form h2, .product-list h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.product-form form input, .product-form form textarea, .product-form form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-form form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.product-form form button:hover {
+  background-color: #0056b3;
+}
+
+.product-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-list li {
+  padding: 15px;
+  border-bottom: 1px solid #0752f3;
+}
+
+.product-list li:last-child {
+  border-bottom: none;
+}
+
+.product-list li h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #ffffff; /* Change font color for product list headings */
+}
+
+.product-list li p {
+  margin: 0;
+  color: #00e90c; /* Change font color for product list paragraphs */
+}
+
+.app-container {
+  min-height: 100vh;
+}
