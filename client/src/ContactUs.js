@@ -9,13 +9,14 @@ function ContactUs() {
         <div className="row">
           <div className="col-md-6">
             <h4>Our Address</h4>
-            <p>108 107 Alamgir Rd, Bihar Muslim Society BMCHS Sharafabad, Karachi, Karachi City, Sindh</p>
-            <p>Cityville, State, Country</p>
+             <p>Welcome to Evergreen Emporium</p>
+            <p>Sindhi Muslim Karachi, Karachi City, Sindh</p>
+            <p>City, State, Country</p>
           </div>
           <div className="col-md-6">
             <h4>Contact Information</h4>
-            <p>Email: support@thecraftyquill.com</p>
-            <p>Phone: 0300 1234569</p>
+            <p>Email: support@evergreenemporium.com</p>
+            <p>Phone: 0323 1234569</p>
           </div>
         </div>
       </div>
